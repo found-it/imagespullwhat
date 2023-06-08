@@ -22,4 +22,4 @@ jobs:
       - run: docker pull cgr.dev/chainguard/node
       - run: |
           whoami
-          ls -alh /usr/bin
+          ls -alh /usr/local/bin
