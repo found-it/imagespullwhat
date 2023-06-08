@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v3
       - uses: chainguard-dev/actions/setup-chainctl@main
         with:
-          identity: 99875baff2b3c7cb15ecb743bc00d2da9d65f78c/d4d92eba1e15bc0d
+          identity: 99875baff2b3c7cb15ecb743bc00d2da9d65f78c/96007ab0b6b04a73
       - run: docker pull cgr.dev/chainguard/node
