@@ -15,7 +15,7 @@ jobs:
       - run: |
           echo $PATH
       - uses: actions/checkout@v3
-      - uses: chainguard-dev/actions/setup-chainctl@main
+      - uses: found-it/chainguard-actions/setup-chainctl@setup-chainctl-remove-sudo
         with:
           identity: 99875baff2b3c7cb15ecb743bc00d2da9d65f78c/96007ab0b6b04a73
       - run: docker pull cgr.dev/chainguard/node
